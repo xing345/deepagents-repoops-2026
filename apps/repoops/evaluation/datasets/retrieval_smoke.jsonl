@@ -1,0 +1,2 @@
+{"case_id":"readme-command-runner","query":"safe command runner","expected_paths":["README.md"],"k":3}
+{"case_id":"python-search-symbol","query":"search_code query","expected_paths":["src/search.py"],"k":3}
