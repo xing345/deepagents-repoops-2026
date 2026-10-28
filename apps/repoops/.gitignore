@@ -1,8 +1,0 @@
-.venv/
-.pytest_cache/
-.ruff_cache/
-.ty/
-__pycache__/
-*.py[cod]
-*.sqlite3
-*.jsonl.tmp

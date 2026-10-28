@@ -1,0 +1,11 @@
+{
+  "metrics": {
+    "average_latency_ms": 2.043666667304933,
+    "failed_cases": [],
+    "mrr": 0.875,
+    "recall_at_k": 1.0,
+    "total_cases": 12
+  },
+  "corpus": "src",
+  "chunks": 29
+}

@@ -1,0 +1,12 @@
+{"case_id": "hybrid-index-search", "query": "HybridIndex search lexical_weight vector_weight", "expected_paths": ["repoops/retrieval/index.py"], "k": 5}
+{"case_id": "code-chunker-window", "query": "CodeChunker overlap_lines max_lines", "expected_paths": ["repoops/retrieval/chunker.py"], "k": 5}
+{"case_id": "execution-policy-allowlist", "query": "ExecutionPolicy allowed_executables workspace_root", "expected_paths": ["repoops/security/policy.py"], "k": 5}
+{"case_id": "safe-executor-timeout", "query": "SafeExecutor subprocess timeout capture_output", "expected_paths": ["repoops/security/executor.py"], "k": 5}
+{"case_id": "task-store-optimistic-lock", "query": "TaskStore transition version optimistic", "expected_paths": ["repoops/runtime/task_store.py"], "k": 5}
+{"case_id": "checkpoint-input-key", "query": "CheckpointStore input_key sequence", "expected_paths": ["repoops/runtime/checkpoints.py"], "k": 5}
+{"case_id": "telemetry-span-cost", "query": "JsonlTelemetry span cost_usd", "expected_paths": ["repoops/observability/telemetry.py"], "k": 5}
+{"case_id": "retrieval-evaluator-metrics", "query": "RetrievalEvaluator recall_at_k reciprocal rank", "expected_paths": ["repoops/evaluation/runner.py"], "k": 5}
+{"case_id": "agent-factory-tools", "query": "create_repoops_agent search_repository", "expected_paths": ["repoops/agent_factory.py"], "k": 5}
+{"case_id": "application-orchestration", "query": "RepoOpsApplication run_retrieval_task checkpoint", "expected_paths": ["repoops/application.py"], "k": 5}
+{"case_id": "evaluation-case-model", "query": "EvaluationCase expected_paths", "expected_paths": ["repoops/evaluation/models.py"], "k": 5}
+{"case_id": "search-hit-scores", "query": "SearchHit lexical_score vector_score", "expected_paths": ["repoops/retrieval/models.py"], "k": 5}
